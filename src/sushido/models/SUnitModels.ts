@@ -4,99 +4,121 @@ export const マグロ箱: SUnitOptions = {
   code: "マグロ箱",
   stack: { maxCount: 0 },
   generation: { objCode: "マグロ" },
-  titleEn: "",
-  descriptionEn: "",
+  titleEn: "Tuna (box)",
+  titleKo: "",
   descriptionJa: "マグロが取り出せる",
+  descriptionEn: "Grab to take Tuna",
+  descriptionKo: "",
 };
 
 export const サーモン箱: SUnitOptions = {
   code: "サーモン箱",
   stack: { maxCount: 0 },
   generation: { objCode: "サーモン" },
-  titleEn: "",
-  descriptionEn: "",
+  titleEn: "Salmon (box)",
+  titleKo: "",
   descriptionJa: "サーモンが取り出せる",
+  descriptionEn: "Grab to take Salmon",
+  descriptionKo: "",
 };
 
 export const えび箱: SUnitOptions = {
   code: "えび箱",
   stack: { maxCount: 0 },
   generation: { objCode: "えび" },
-  titleEn: "",
-  descriptionEn: "",
+  titleEn: "Shrimp (box)",
+  titleKo: "",
   descriptionJa: "えびが取り出せる",
+  descriptionEn: "Grab to take Shrimp",
+  descriptionKo: "",
 };
 
 export const たこ箱: SUnitOptions = {
   code: "たこ箱",
   stack: { maxCount: 0 },
   generation: { objCode: "たこ" },
-  titleEn: "",
-  descriptionEn: "",
+  titleEn: "Octopus (box)",
+  titleKo: "",
   descriptionJa: "たこが取り出せる",
+  descriptionEn: "Grab to take Octopus",
+  descriptionKo: "",
 };
 
 export const いか箱: SUnitOptions = {
   code: "いか箱",
   stack: { maxCount: 0 },
   generation: { objCode: "いか" },
-  titleEn: "",
-  descriptionEn: "",
+  titleEn: "Squid (box)",
+  titleKo: "",
   descriptionJa: "いかが取り出せる",
+  descriptionEn: "Grab to take Squid",
+  descriptionKo: "",
 };
 
 export const てんぷらこ箱: SUnitOptions = {
   code: "てんぷらこ箱",
   stack: { maxCount: 0 },
   generation: { objCode: "てんぷらこ" },
-  titleEn: "",
-  descriptionEn: "",
+  titleEn: "Tempura batter (box)",
+  titleKo: "",
   descriptionJa: "てんぷらこが取り出せる",
+  descriptionEn: "Grab to take Tempura batter",
+  descriptionKo: "",
 };
 
 export const なまたまご箱: SUnitOptions = {
   code: "なまたまご箱",
   stack: { maxCount: 0 },
   generation: { objCode: "なまたまご" },
-  titleEn: "",
-  descriptionEn: "",
+  titleEn: "Egg (box)",
+  titleKo: "",
   descriptionJa: "なまたまごが取り出せる",
+  descriptionEn: "Grab to take Egg",
+  descriptionKo: "",
 };
 
 export const のり箱: SUnitOptions = {
   code: "のり箱",
   stack: { maxCount: 0 },
   generation: { objCode: "のり" },
-  titleEn: "",
-  descriptionEn: "",
+  titleEn: "Seaweed (box)",
+  titleKo: "",
   descriptionJa: "のりが取り出せる",
+  descriptionEn: "Grab to take Seaweed",
+  descriptionKo: "",
 };
 
 export const すめし箱: SUnitOptions = {
   code: "すめし箱",
   stack: { maxCount: 0 },
   generation: { objCode: "すめし" },
-  titleEn: "",
-  descriptionEn: "",
+  titleEn: "Rice (box)",
+  titleKo: "",
   descriptionJa: "すめしが取り出せる",
+  descriptionEn: "Grab to take Rice",
+  descriptionKo: "",
 };
 
 export const 瓶箱: SUnitOptions = {
   code: "瓶箱",
   stack: { maxCount: 0 },
   generation: { objCode: "瓶" },
-  titleEn: "",
-  descriptionEn: "",
+  titleEn: "Broth cup (box)",
+  titleKo: "",
   descriptionJa: "茶碗蒸しの茶器が取り出せる",
+  descriptionEn: "Grab to take a Broth cup",
+  descriptionKo: "",
 };
 
 export const アボカド箱: SUnitOptions = {
   code: "アボカド箱",
   stack: { maxCount: 0 },
   generation: { objCode: "アボカド" },
-  titleEn: "",
-  descriptionEn: "",
+  titleEn: "Avocado (box)",
+  titleKo: "",
   descriptionJa: "アボカドが取り出せる",
+  descriptionEn: "Grab to take Avocado",
+  descriptionKo: "",
 };
 
 export const コンベア: SUnitOptions = {
@@ -108,9 +130,11 @@ export const コンベア: SUnitOptions = {
     { type: "output", speed: 10 },
     undefined,
   ],
-  titleEn: "",
-  descriptionEn: "",
-  descriptionJa: "矢印の方向にを自動的に移動させる",
+  titleEn: "Conveyor",
+  titleKo: "",
+  descriptionJa: "矢印の方向へ自動的に移動させる",
+  descriptionEn: "Automatically carries items in the direction of the arrow",
+  descriptionKo: "",
 };
 
 export const 直角コンベアL: SUnitOptions = {
@@ -122,9 +146,11 @@ export const 直角コンベアL: SUnitOptions = {
     undefined,
     { type: "output", speed: 10 },
   ],
-  titleEn: "",
-  descriptionEn: "",
+  titleEn: "Angled Conveyor L",
+  titleKo: "",
   descriptionJa: "左に曲がるコンベア",
+  descriptionEn: "Conveyor that turns to the left",
+  descriptionKo: "",
 };
 export const 直角コンベアR: SUnitOptions = {
   code: "直角コンベアR",
@@ -135,9 +161,11 @@ export const 直角コンベアR: SUnitOptions = {
     undefined,
     undefined,
   ],
-  titleEn: "",
-  descriptionEn: "",
+  titleEn: "Angled Conveyor R",
+  titleKo: "",
   descriptionJa: "右に曲がるコンベア",
+  descriptionEn: "Conveyor that turns to the right",
+  descriptionKo: "",
 };
 export const コンベア_Lv2: SUnitOptions = {
   code: "コンベア_Lv2",
@@ -148,9 +176,11 @@ export const コンベア_Lv2: SUnitOptions = {
     { type: "output", speed: 20 },
     undefined,
   ],
-  titleEn: "",
-  descriptionEn: "",
-  descriptionJa: "矢印の方向にを自動的に移動させる",
+  titleEn: "ConveyorLv2",
+  titleKo: "",
+  descriptionJa: "矢印の方向へ自動的に移動させる",
+  descriptionEn: "Automatically carries items in the direction of the arrow",
+  descriptionKo: "",
 };
 
 export const 直角コンベアL_Lv2: SUnitOptions = {
@@ -162,9 +192,11 @@ export const 直角コンベアL_Lv2: SUnitOptions = {
     undefined,
     { type: "output", speed: 20 },
   ],
-  titleEn: "",
-  descriptionEn: "",
+  titleEn: "Angled Conveyor L Lv2",
+  titleKo: "",
   descriptionJa: "左に曲がるコンベア",
+  descriptionEn: "Conveyor that turns to the left",
+  descriptionKo: "",
 };
 export const 直角コンベアR_Lv2: SUnitOptions = {
   code: "直角コンベアR_Lv2",
@@ -175,9 +207,11 @@ export const 直角コンベアR_Lv2: SUnitOptions = {
     undefined,
     undefined,
   ],
-  titleEn: "",
-  descriptionEn: "",
+  titleEn: "Angled Conveyor R Lv2",
+  titleKo: "",
   descriptionJa: "右に曲がるコンベア",
+  descriptionEn: "Conveyor that turns to the right",
+  descriptionKo: "",
 };
 export const カウンター: SUnitOptions = {
   code: "カウンター",
@@ -194,9 +228,11 @@ export const カウンター: SUnitOptions = {
       value: 5,
     },
   ],
-  titleEn: "",
-  descriptionEn: "",
+  titleEn: "Counter",
+  titleKo: "",
   descriptionJa: "調理(切る / 握る)を行える",
+  descriptionEn: "Prepare food",
+  descriptionKo: "",
 };
 
 export const コンロ: SUnitOptions = {
@@ -209,9 +245,11 @@ export const コンロ: SUnitOptions = {
       value: 5,
     },
   ],
-  titleEn: "",
-  descriptionEn: "",
+  titleEn: "Stove",
+  titleKo: "",
   descriptionJa: "調理(加熱) を行える",
+  descriptionEn: "Cook food",
+  descriptionKo: "",
 };
 
 export const 自動にぎるくん: SUnitOptions = {
@@ -224,9 +262,11 @@ export const 自動にぎるくん: SUnitOptions = {
       value: 15,
     },
   ],
-  titleEn: "",
-  descriptionEn: "",
+  titleEn: "Rice press",
+  titleKo: "",
   descriptionJa: "自動化ツール: 調理(握る)を行える",
+  descriptionEn: "Automatically prepares rice",
+  descriptionKo: "",
 };
 
 export const ミキサー: SUnitOptions = {
@@ -239,9 +279,11 @@ export const ミキサー: SUnitOptions = {
       value: 15,
     },
   ],
-  titleEn: "",
-  descriptionEn: "",
+  titleEn: "Mixer",
+  titleKo: "",
   descriptionJa: "調理(切る)を行える",
+  descriptionEn: "Automatically cuts food",
+  descriptionKo: "",
 };
 
 export const コンベアミキサー: SUnitOptions = {
@@ -260,9 +302,11 @@ export const コンベアミキサー: SUnitOptions = {
     { type: "output", speed: 10 },
     undefined,
   ],
-  titleEn: "",
-  descriptionEn: "",
+  titleEn: "Mixer with Conveyor",
+  titleKo: "",
   descriptionJa: "ミキサーにコンベアの機能を付加したユニット",
+  descriptionEn: "Mixer connected to a conveyor",
+  descriptionKo: "",
 };
 export const コンベア自動にぎるくん: SUnitOptions = {
   code: "コンベア自動にぎるくん",
@@ -280,9 +324,11 @@ export const コンベア自動にぎるくん: SUnitOptions = {
     { type: "output", speed: 10 },
     undefined,
   ],
-  titleEn: "",
-  descriptionEn: "",
+  titleEn: "Rice press with Conveyor",
+  titleKo: "",
   descriptionJa: "自動にぎる君にコンベアの機能を付加したユニット",
+  descriptionEn: "Rice press connected to a conveyor",
+  descriptionKo: "",
 };
 export const コンベアコンロ: SUnitOptions = {
   code: "コンベアコンロ",
@@ -300,9 +346,11 @@ export const コンベアコンロ: SUnitOptions = {
     { type: "output", speed: 10 },
     undefined,
   ],
-  titleEn: "",
-  descriptionEn: "",
+  titleEn: "Stove with Conveyor",
+  titleKo: "",
   descriptionJa: "コンロにコンベアの機能を付加したユニット",
+  descriptionEn: "Stove connected to a conveyor",
+  descriptionKo: "",
 };
 
 export const コンバイナ: SUnitOptions = {
@@ -310,9 +358,11 @@ export const コンバイナ: SUnitOptions = {
   stack: { maxCount: 1 },
   transporter: [undefined, undefined, undefined, undefined],
   combiner: { count: 1, speed: 30 },
-  titleEn: "",
-  descriptionEn: "",
+  titleEn: "Combiner",
+  titleKo: "",
   descriptionJa: "自動化ツール: 二種類の素材を組み合わせる",
+  descriptionEn: "Automatically combines food together",
+  descriptionKo: "",
 };
 
 export const コンベアコンバイナ: SUnitOptions = {
@@ -325,9 +375,11 @@ export const コンベアコンバイナ: SUnitOptions = {
     { type: "output", speed: 10 },
   ],
   combiner: { count: 1, speed: 30 },
-  titleEn: "",
-  descriptionEn: "",
+  titleEn: "Combiner with Conveyor",
+  titleKo: "",
   descriptionJa: "コンバイナにコンベアの機能を付加したユニット",
+  descriptionEn: "Combiner connected to a conveyor",
+  descriptionKo: "",
 };
 
 export const 売却機: SUnitOptions = {
@@ -335,9 +387,11 @@ export const 売却機: SUnitOptions = {
   stack: { maxCount: 1 },
   process: [{ processCode: "uru", requireInteract: false, value: 2 }],
   transporter: [undefined, undefined, undefined, undefined],
-  titleEn: "",
-  descriptionEn: "",
+  titleEn: "Selling machine",
+  titleKo: "",
   descriptionJa: "完成品を売却できる",
+  descriptionEn: "Sells finished products",
+  descriptionKo: "",
 };
 
 export const ダイニングテーブル: SUnitOptions = {
@@ -345,27 +399,33 @@ export const ダイニングテーブル: SUnitOptions = {
   stack: { maxCount: 1 },
   process: [{ processCode: "taberu", requireInteract: false, value: 7 }],
   transporter: [undefined, undefined, undefined, undefined],
-  titleEn: "",
-  descriptionEn: "",
+  titleEn: "Dining table",
+  titleKo: "",
   descriptionJa: "お客さんが座るところ",
+  descriptionEn: "Table where customers sit",
+  descriptionKo: "",
 };
 
 export const ゴミ箱: SUnitOptions = {
   code: "ゴミ箱",
   stack: { maxCount: 0 },
   delete: { addCoin: 0 },
-  titleEn: "",
-  descriptionEn: "",
-  descriptionJa: "誤って作成した場合に破棄する箱",
+  titleEn: "Garbage can",
+  titleKo: "",
+  descriptionJa: "誤って作成した場合に破棄するためのユニット",
+  descriptionEn: "Discard incorrectly prepared products",
+  descriptionKo: "",
 };
 
 export const ネオロイド箱: SUnitOptions = {
   code: "ネオロイド箱",
   stack: { maxCount: 0 },
   delete: { addCoin: 1 },
-  titleEn: "",
-  descriptionEn: "",
-  descriptionJa: "",
+  titleEn: "NeoRoid (box)",
+  titleKo: "",
+  descriptionJa: "これはいいゴミ箱だ！（★7）",
+  descriptionEn: "THIS ITEM IS SUPER GOOD GREAT DELICIOUS Trash Can.",
+  descriptionKo: "",
 };
 
 export const SushiUnitModels: SUnitModel = {

@@ -59,8 +59,10 @@ export type SUnitOptions = {
     addCoin: number;
   };
   titleEn?: string;
+  titleKo?: string;
   descriptionJa?: string;
   descriptionEn?: string;
+  descriptionKo?: string;
 };
 
 export type SObjOptions = {
